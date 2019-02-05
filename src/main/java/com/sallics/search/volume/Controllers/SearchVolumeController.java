@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
  */
 
 @RestController
-@RequestMapping("/search-volume")
+@RequestMapping("/estimate")
 public class SearchVolumeController {
 
 
@@ -28,7 +28,7 @@ public class SearchVolumeController {
     SearchVolumeService searchVolumeService;
 
     /**
-     * the function is mapped to Get request to path /search-volume
+     * the function is mapped to Get request to path /estimate
      * @param keyWord is passed as string variable
      * @return {@link ResponseEntity<?>} with a body of Keyword or ApiError
      * @throws Exception
