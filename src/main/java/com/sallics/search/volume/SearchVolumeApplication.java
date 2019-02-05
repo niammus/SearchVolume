@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
  *
  * This the main class for running spring-boot application
  *
+ *
  */
 @SpringBootApplication
 @EnableCircuitBreaker
